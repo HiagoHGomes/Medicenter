@@ -24,9 +24,32 @@ header {
 .menu {
     display: flex;
     align-items: center;
-
 }
 
+nav ul, nav li {
+    list-style: none;  /* tira os pontos */
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: rgb(136, 136, 163);
+    text-decoration: none;
+    margin: auto;
+    padding: 15px;
+    font-family: Arial;
+}
+
+nav a:hover {
+    color: white;
+    background-color: rgb(66, 179, 229);
+}
 
 
 /* .container img, nav { 
@@ -46,12 +69,14 @@ header {
     height: 40px;
 /* } */
 
-
-
-#imagem img {
-    width: 1348.5px;
-    
+#banner {
+    background-image: url('../images/img1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 570px;
 }
+
+
 
 .principal {
     display: flex;
