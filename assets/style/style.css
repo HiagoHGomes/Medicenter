@@ -112,6 +112,32 @@ nav a:hover {
 
 .box {
     height: 210px;
+    display: flex;
+    color: white;
+}
+
+.bloc1 {
+    flex: 1;
+    background-color: #42B3E5;
+}
+
+.bloc2 {
+    flex: 1;
+    background-color: #0384CE;
+}
+
+.bloc3 {
+    flex: 1;
+    background-color: #3156A3;
+}
+
+.bloc1 h1 {
+    
+}
+
+
+.box {
+    height: 210px;
 }
 
 .principal {
