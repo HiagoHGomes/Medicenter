@@ -141,7 +141,7 @@ nav a:hover {
     font-size: 21px;
 }
 
-.subnannerbox {
+.subnannerbox{
     font-size: 12px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -159,6 +159,17 @@ nav a:hover {
 .box {
     height: 210px;
 }
+
+.dias {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #0079c7;
+  }
+
+  .dias p {
+      margin-bottom: 15px;
+      font-size: 12px;
+  }
 
 .principal {
     display: flex;
