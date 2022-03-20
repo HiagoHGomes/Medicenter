@@ -1,3 +1,7 @@
+* {
+    font-family: arial;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -43,7 +47,6 @@ nav a {
     text-decoration: none;
     margin: auto;
     padding: 15px;
-    font-family: Arial;
 }
 
 nav a:hover {
@@ -119,20 +122,37 @@ nav a:hover {
 .bloc1 {
     flex: 1;
     background-color: #42B3E5;
+    padding: 30px;
 }
 
 .bloc2 {
     flex: 1;
     background-color: #0384CE;
+    padding: 30px;
 }
 
 .bloc3 {
     flex: 1;
     background-color: #3156A3;
+    padding: 30px;
 }
 
-.bloc1 h1 {
-    
+.bannerbox {
+    font-size: 21px;
+}
+
+.subnannerbox {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box a {
+    text-decoration: none;
+    border: 1px solid white;
+    display: inline-block;
+    padding: 5px;
+    color: white;
 }
 
 
