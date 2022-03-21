@@ -171,23 +171,33 @@ nav a:hover {
       font-size: 12px;
   }
 
-.principal {
+#geral {
     display: flex;
+    justify-content: center;
 }
 
-main{
-    height: 1043px;
-    width: 773px;
+#geral section {
+    flex: 2;
 }
 
-aside {
-    height: 1043px;
-
+#geral aside{
+    flex: 1;
 }
 
-footer {
-    background-color: rgb(32, 32, 32);
-    width: 100%;
-    height: 511px;
+.widget-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
+.widget-text {
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget-bar {
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
