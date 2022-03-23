@@ -216,3 +216,31 @@ aside .widget-body {
    margin-right: auto;
    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.4);
 }
+
+.texto-body, .contato {
+    font-size: 13px;
+    color: #5c5c5c;
+    line-height: 18px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.contato {
+    width: 300px;
+}
+
+.contato strong {
+    font-weight: bolder;
+    color: #363636;
+}
+
+#p1{ 
+    border-top: 1px solid #cec8c8;
+}
+
+.contato p {
+    border-bottom: 1px solid #cec8c8;
+    padding: 8px;
+}
+
+
