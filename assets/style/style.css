@@ -312,7 +312,63 @@ footer {
     display: flex;
 }
 
+footer .box {
+    height: 125px;
+}
+
 
 footer .container {
    margin: auto;
 }
+
+.footer_area {
+    display: flex;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.footer_item {
+    flex: 1;
+}
+
+.footer-text {
+    font-size: 13px;
+    color: #5c5c5c;
+    line-height: 18px;
+}
+
+footer .x1 {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    
+}
+
+
+.flexcolun {
+    flex-direction: column;
+}
+
+.footer_cont {
+    margin-top: 30px;
+    font-size: 18px;
+    font-size: 21px;
+    font-weight: bold;
+
+}
+
+.footer-copy {
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+    
+}
+ .footer-copy a{
+    text-decoration: none;
+    color: #5c5c5c;
+
+}
+
