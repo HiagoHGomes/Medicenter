@@ -337,11 +337,33 @@ footer .container {
     line-height: 18px;
 }
 
+
 footer .x1 {
     display: flex;
     width: 250px;
     justify-content: space-between;
     
+}
+
+.paragrafo a{
+    text-decoration: none;
+    color: white;
+    line-height: 150%;
+    font-size: 12px;
+}
+
+.paragrafo a:hover {
+    text-decoration: underline;
+}
+
+.sub {
+    font-size: 11px;
+    color: #0079c7;
+    margin-top: -10px;
+}
+
+.x2 a{
+    color: #727272;
 }
 
 
