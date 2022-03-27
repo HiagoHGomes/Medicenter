@@ -307,3 +307,12 @@ article {
     margin-right: 20px;
 }
 
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+}
+
+
+footer .container {
+   margin: auto;
+}
