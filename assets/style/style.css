@@ -386,11 +386,14 @@ footer .x1 {
     color: #5c5c5c;
     font-size: 12px;
     margin-top: 30px;
-    
 }
  .footer-copy a{
     text-decoration: none;
     color: #5c5c5c;
+}
 
+.footer-copy a:hover{
+    text-decoration: underline;
+    color: #ffffff;
 }
 
