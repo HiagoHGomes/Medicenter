@@ -430,6 +430,8 @@ footer .x1 {
 
     .footer-copy{ 
         padding-left: 20px;
+        height: auto;
+        line-height: 18px;
     }
 
     .footer_item {
@@ -444,6 +446,10 @@ footer .x1 {
     nav ul {
         flex-direction: column;
         display: none;
+        position: absolute; /* Aparecer por cima do site */
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
     }
 
     header {
@@ -465,6 +471,7 @@ footer .x1 {
     }
 
     #geral {
-        margin-top: 276px;
+        margin-top: 295px;
     }
 }
+
