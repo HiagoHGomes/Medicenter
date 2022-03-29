@@ -79,7 +79,7 @@ nav a:hover {
     background-image: url('../images/img1.jpg');
     background-position: center;
     background-size: cover;
-    height: 670px;
+    min-height: 670px;
     display: flex;
     justify-content: center;
 }
@@ -99,7 +99,7 @@ nav a:hover {
 
 .texto h1 {
     color: #FFFFFF;
-    font-size: 50px;
+    font-size: 70px;
     text-shadow: 0px 1px 0px #555555;
     margin: 0;
     padding: 0;
@@ -313,7 +313,7 @@ footer {
 }
 
 footer .box {
-    height: 125px;
+    min-height: 125px;
 }
 
 
@@ -397,3 +397,84 @@ footer .x1 {
     color: #ffffff;
 }
 
+.menu-mobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin: 40px 20px 40px 0px;
+    
+}
+
+.mm_line {
+    height: 3px;
+    background-color: #39aae1;
+    border-radius: 550px;
+}
+
+/* Responsividade */
+@media (max-width:600px) {
+    .texto {
+        margin: 20px 0px 150px 20px;
+    }
+    .texto h1 {
+        font-size: 55px;
+        text-shadow: 0px 1px 1px #000000;
+    }
+    .texto h2 {
+        font-size: 16px;
+        text-shadow: 1px 1px 1px #000000;
+    }
+    .box {
+        height: auto;
+        flex-direction: column;
+    }
+    section .geral {
+        margin-top: 100px;
+    }
+
+    .container {
+        flex-direction: column;
+        
+    }
+
+    #geral  section, #geral aside {
+        padding: 20px;
+    }
+
+    .footer_area {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .footer-copy{ 
+        padding-left: 20px;
+    }
+
+    .footer_item {
+        border-top: 1px solid #2c2c2c;
+        margin-top: 5px;
+    }
+
+    header .container {
+        flex-direction: row;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .logo {
+        padding: 20px;
+    }
+
+    .menu-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
