@@ -20,3 +20,25 @@ window.onresize=function(){
     }
     
 }
+
+function subir() {
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior:'smooth'
+    });
+}
+
+function decidir () {
+    if(window.scrollY===0) {
+        //ocultar o botão
+        document.querySelector(".button").style.display = "none";
+    } else {
+        //mostrar o botão
+        document.querySelector(".button").style.display = "block";
+    }
+}
+
+// setInterval(decidir, 1000)
+
+window.addEventListener('scroll', decidir)
